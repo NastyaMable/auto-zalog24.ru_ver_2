@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'RalewayM';
+	src: url(../font/Raleway-Medium.eot);
+	src: url(../font/Raleway-Medium.ttf) format('truetype');
+	src: url(../font/Raleway-Medium.eot?#iefix) format('embedded-opentype'),
+		url(../font/Raleway-Medium.woff) format('woff'),
+		url(../font/Raleway-Medium.ttf) format('truetype'),
+	font-weight: normal;font-style: normal;
+}
+@font-face {
+	font-family: 'RalewayR';
+	src: url(../font/Raleway-Regular.eot);
+	src: url(../font/Raleway-Regular.ttf) format('truetype');
+	src: url(../font/Raleway-Regular.eot?#iefix) format('embedded-opentype'),
+		url(../font/Raleway-Regular.woff) format('woff'),
+		url(../font/Raleway-Regular.ttf) format('truetype'),
+	font-weight: normal;font-style: normal;
+}
+@font-face {
+	font-family: 'RalewayB';
+	src: url(../font/Raleway-Bold.eot);
+	src: url(../font/Raleway-Bold.ttf) format('truetype');
+	src: url(../font/Raleway-Bold.eot?#iefix) format('embedded-opentype'),
+		url(../font/Raleway-Bold.woff) format('woff'),
+		url(../font/Raleway-Bold.ttf) format('truetype'),
+	font-weight: normal;font-style: normal;
+}
+@font-face {
+	font-family: 'RalewaySB';
+	src: url(../font/Raleway-SemiBold.eot);
+	src: url(../font/Raleway-SemiBold.ttf) format('truetype');
+	src: url(../font/Raleway-SemiBold.eot?#iefix) format('embedded-opentype'),
+		url(../font/Raleway-SemiBold.woff) format('woff'),
+		url(../font/Raleway-SemiBold.ttf) format('truetype'),
+	font-weight: normal;font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoR';
+	src: url(../font/Roboto-Regular.eot);
+	src: url(../font/Roboto-Regular.ttf) format('truetype');
+	src: url(../font/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+		url(../font/Roboto-Regular.woff) format('woff'),
+		url(../font/Roboto-Regular.ttf) format('truetype'),
+	font-weight: normal;font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoB';
+	src: url(../font/Roboto-Bold.eot);
+	src: url(../font/Roboto-Bold.ttf) format('truetype');
+	src: url(../font/Roboto-Bold.eot?#iefix) format('embedded-opentype'),
+		url(../font/Roboto-Bold.woff) format('woff'),
+		url(../font/Roboto-Bold.ttf) format('truetype'),
+	font-weight: normal;font-style: normal;
+}
