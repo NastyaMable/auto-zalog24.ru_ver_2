@@ -16704,8 +16704,8 @@ span.days {
 	font-family: RalewayB;
 	font-size: 16px;
 	line-height: 33px;
-	text-decoration-line: underline;
-	color: #2b3747;
+
+	color: #222222;
 	display: block;
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -16714,7 +16714,7 @@ span.days {
 }
 
 .link-button a:hover {
-	text-decoration-line: none
+	color: #DB6E0A;
 }
 
 .index-header-block {
@@ -17749,7 +17749,7 @@ a.police-item-link {
 	padding: 0 20px
 }
 
-.city-wrapper .city-text {
+.city-text {
 	color: #222222;
 	cursor: pointer;
 	text-decoration: underline;
@@ -17759,29 +17759,33 @@ a.police-item-link {
 	background-repeat: no-repeat;
 	padding-left: 24px;
 	background-position-y: 2px;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
-.city-wrapper .city-text:hover {
-	color: #db6e0a
+.city-text:hover {
+	color: #db6e0a !important
+}
+.city-text-contact {
+	color: #db6e0a;
+	font-family: RalewaySB, Arial;
+	cursor: pointer;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+	margin-bottom: 20px;
+}
+.city-text-contact:hover{
+	color: #EE8321;
+}
+.city-text-contact:focus{
+	color: #222;
 }
 
 .city-slidebar {
 	margin-bottom: 20px
-}
-
-.city-slidebar .city-text {
-	color: #222222;
-	cursor: pointer;
-	text-decoration: underline;
-	font-family: RalewaySB, Arial;
-	font-size: 14px;
-	background-image: url(../images/location-icon.svg);
-	background-repeat: no-repeat;
-	padding-left: 24px;
-	background-position-y: 2px;
-}
-
-.city-slidebar .city-text:hover {
-	color: #db6e0a
 }
 
 .header.header-small .city-text {
@@ -17842,12 +17846,11 @@ a.police-item-link {
 
 .cities-a {
 	font-size: 16px;
-	color: #2b3747
+	color: #222
 }
 
 .cities-a:hover {
-	color: #41515a;
-	text-decoration: underline
+	color: #DB6E0A;
 }
 
 .cities-a.active {
@@ -17906,10 +17909,10 @@ a.police-item-link {
 	width: 35px;
 	position: absolute;
 	display: block;
-	right: 0;
-	top: 0;
+	right: 30px;
+	top: 30px;
 	cursor: pointer;
-	z-index: 1000
+	z-index: 1000;
 }
 
 .mob-menu-but-h-3-wrapper {
